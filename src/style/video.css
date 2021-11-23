@@ -1,0 +1,48 @@
+/*video items*/
+.video-thumbnails {
+    /*background: red;*/
+    flex : 1;
+    margin: 1em;
+
+    align-items: center;
+    flex-direction: column;
+}
+  
+.item {
+    /*background: lightblue;*/
+    margin: 1em;
+    flex:3;
+
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: .5fr;
+    
+}
+
+.short-desc {
+    /*background: blue;*/
+    margin: .5em;
+    flex:1;
+    display: inline-block;
+    font-size: .7em;
+    color: white;
+    height: 40px;
+    text-overflow: hidden;
+}
+
+.thumbnail {
+    /*background: blue;*/
+    margin: .5em;
+    display: inline-block;
+
+    max-width: 230px;
+    min-width: 230px;
+    max-height:130px;
+    min-height: 130px;
+
+}
+
+
+
+
+
